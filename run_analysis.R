@@ -44,4 +44,5 @@ for (i in 1:10299) {
 
 # New data set with averaged values
 dataset2 <- dataset %>% group_by(Subject, Activity) %>% summarise_all(funs(mean))
+write.table(dataset2, "tidydataset.txt", row.names = FALSE)
 
