@@ -4,6 +4,7 @@ Identifiers:
 
 •	subject - The ID of the subject
 •	activity - The type of activity performed
+
 Variables:
 
 •	tBodyAccMeanX
