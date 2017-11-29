@@ -1,11 +1,19 @@
 This code book summarizes the data in tidydataset.txt
 
-Identifiers:
 
-•	subject - The ID of the subject
-•	activity - The type of activity performed
 
-Variables:
+Subject:  The identifier of the subject
+
+Activity:
+
+•	WALKING
+•	WALKING_UPSTAIRS 
+•	WALKING_DOWNSTAIRS SITTING 
+•	STANDING 
+•	LAYING 
+
+
+Result Variables:
 
 •	tBodyAccMeanX
 •	tBodyAccMeanY
@@ -86,11 +94,3 @@ Variables:
 •	fBodyBodyGyroJerkMagMean
 •	fBodyBodyGyroJerkMagStd
 •	fBodyBodyGyroJerkMagMeanFreq
-
-Activities:
-
-•	WALKING
-•	WALKING_UPSTAIRS 
-•	WALKING_DOWNSTAIRS SITTING 
-•	STANDING 
-•	LAYING 
